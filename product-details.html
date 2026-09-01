@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details | Voltix Electricals</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-bolt"></i>
+
+            <div>
+                <span>Voltix</span>
+                <small>Electricals</small>
+            </div>
+
+        </div>
+
+
+        <nav>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="services.html">
+                Services
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <div class="nav-icons">
+
+            <a href="cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+
+            <i class="fa-solid fa-bars menu-icon"></i>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= BREADCRUMB ================= -->
+
+    <section class="breadcrumb">
+
+        <div>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <i class="fa-solid fa-angle-right"></i>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <i class="fa-solid fa-angle-right"></i>
+
+            <span id="breadcrumbProduct">
+                Product
+            </span>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PRODUCT DETAILS ================= -->
+
+    <section class="product-details-section">
+
+        <div class="product-details-container">
+
+
+            <!-- ================= PRODUCT IMAGE ================= -->
+
+            <div class="product-details-image">
+
+                <div class="main-product-image">
+
+                    <span
+                        class="details-badge"
+                        id="productBadge">
+
+                        SALE
+
+                    </span>
+
+
+                    <img
+                        id="mainProductImage"
+                        src=""
+                        alt="Product">
+
+                </div>
+
+
+                <!-- SMALL IMAGES -->
+
+                <div
+                    class="product-thumbnails"
+                    id="productThumbnails">
+
+                    <div class="thumbnail active">
+
+                        <img
+                            id="thumb1"
+                            src=""
+                            alt="Product">
+
+                    </div>
+
+
+                    <div class="thumbnail">
+
+                        <img
+                            id="thumb2"
+                            src=""
+                            alt="Product">
+
+                    </div>
+
+
+                    <div class="thumbnail">
+
+                        <img
+                            id="thumb3"
+                            src=""
+                            alt="Product">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= PRODUCT INFORMATION ================= -->
+
+            <div class="product-details-info">
+
+
+                <span
+                    class="details-category"
+                    id="productCategory">
+
+                    LIGHTING
+
+                </span>
+
+
+                <h1 id="productTitle">
+                    Product Name
+                </h1>
+
+
+                <!-- RATING -->
+
+                <div class="rating">
+
+                    <span class="stars">
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <i class="fa-solid fa-star"></i>
+
+                        <i class="fa-solid fa-star-half-stroke"></i>
+
+                    </span>
+
+
+                    <span id="productRating">
+                        4.8 (125 Reviews)
+                    </span>
+
+                </div>
+
+
+
+                <!-- PRICE -->
+
+                <div class="details-price">
+
+                    <span
+                        class="old-price"
+                        id="oldPrice">
+
+                        Rs. 550
+
+                    </span>
+
+
+                    <strong id="productPrice">
+
+                        Rs. 450
+
+                    </strong>
+
+                </div>
+
+
+
+                <!-- DESCRIPTION -->
+
+                <p
+                    class="product-description"
+                    id="productDescription">
+
+                    Product description will appear here.
+
+                </p>
+
+
+
+                <!-- FEATURES -->
+
+                <div
+                    class="product-features"
+                    id="productFeatures">
+
+
+                    <div>
+
+                        <i class="fa-solid fa-bolt"></i>
+
+                        <span>
+                            Energy Efficient
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="fa-solid fa-lightbulb"></i>
+
+                        <span>
+                            Quality Product
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                        <span>
+                            Safe & Reliable
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="fa-solid fa-clock"></i>
+
+                        <span>
+                            Long Life
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- STOCK -->
+
+                <div class="stock-status">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    In Stock
+
+                </div>
+
+
+
+                <!-- QUANTITY + CART -->
+
+                <div class="purchase-area">
+
+
+                    <div class="quantity-box">
+
+                        <button id="minusBtn">
+                            -
+                        </button>
+
+
+                        <span id="quantity">
+                            1
+                        </span>
+
+
+                        <button id="plusBtn">
+                            +
+                        </button>
+
+                    </div>
+
+
+
+                    <button
+                        class="add-to-cart-btn"
+                        type="button">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        Add to Cart
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- BUY NOW -->
+
+                <button
+                    class="buy-now-btn"
+                    type="button">
+
+                    Buy Now
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+
+                <!-- DELIVERY -->
+
+                <div class="delivery-info">
+
+
+                    <div>
+
+                        <i class="fa-solid fa-truck"></i>
+
+                        <div>
+
+                            <strong>
+                                Fast Delivery
+                            </strong>
+
+                            <span>
+                                Delivery available nationwide
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div>
+
+                        <i class="fa-solid fa-rotate-left"></i>
+
+                        <div>
+
+                            <strong>
+                                Easy Returns
+                            </strong>
+
+                            <span>
+                                Easy return policy available
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PRODUCT INFORMATION ================= -->
+
+    <section class="product-information">
+
+
+        <div class="information-tabs">
+
+            <button
+                class="info-tab active"
+                type="button">
+
+                Description
+
+            </button>
+
+
+            <button
+                class="info-tab"
+                type="button">
+
+                Specifications
+
+            </button>
+
+
+            <button
+                class="info-tab"
+                type="button">
+
+                Reviews
+
+            </button>
+
+        </div>
+
+
+
+        <!-- DESCRIPTION -->
+
+        <div class="info-content">
+
+            <h2>
+                Product Description
+            </h2>
+
+
+            <p id="longDescription">
+
+                Product description will appear here.
+
+            </p>
+
+
+            <p id="secondDescription">
+
+                Quality electrical product from Voltix Electricals.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- SPECIFICATIONS -->
+
+        <div class="specifications">
+
+            <h2>
+                Specifications
+            </h2>
+
+
+            <div class="spec-row">
+
+                <span>
+                    Product Type
+                </span>
+
+                <strong id="specType">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="spec-row">
+
+                <span>
+                    Power
+                </span>
+
+                <strong id="specPower">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="spec-row">
+
+                <span>
+                    Voltage
+                </span>
+
+                <strong id="specVoltage">
+                    220V
+                </strong>
+
+            </div>
+
+
+            <div class="spec-row">
+
+                <span>
+                    Material
+                </span>
+
+                <strong id="specMaterial">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="spec-row">
+
+                <span>
+                    Life Span
+                </span>
+
+                <strong id="specLife">
+                    -
+                </strong>
+
+            </div>
+
+
+            <div class="spec-row">
+
+                <span>
+                    Warranty
+                </span>
+
+                <strong id="specWarranty">
+                    1 Year
+                </strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= RELATED PRODUCTS ================= -->
+
+    <section class="related-products">
+
+        <div class="section-heading">
+
+            <span>
+                YOU MAY ALSO LIKE
+            </span>
+
+            <h2>
+                Related Products
+            </h2>
+
+            <p>
+                Explore more products from Voltix Electricals.
+            </p>
+
+        </div>
+
+
+
+        <div class="related-grid">
+
+
+            <!-- RELATED 1 -->
+
+            <a
+                href="product-details.html?product=led-panel"
+                class="related-card">
+
+                <div class="related-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1565636192333-9e9c2e2f0d8a?auto=format&fit=crop&w=700&q=80"
+                        alt="LED Panel Light">
+
+                </div>
+
+
+                <div class="related-info">
+
+                    <span>
+                        Lighting
+                    </span>
+
+                    <h3>
+                        LED Panel Light
+                    </h3>
+
+                    <strong>
+                        Rs. 1,250
+                    </strong>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- RELATED 2 -->
+
+            <a
+                href="product-details.html?product=ceiling-fan"
+                class="related-card">
+
+                <div class="related-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1553165558-98d0a0d0c1e0?auto=format&fit=crop&w=700&q=80"
+                        alt="Ceiling Fan">
+
+                </div>
+
+
+                <div class="related-info">
+
+                    <span>
+                        Fans
+                    </span>
+
+                    <h3>
+                        Premium Ceiling Fan
+                    </h3>
+
+                    <strong>
+                        Rs. 8,500
+                    </strong>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- RELATED 3 -->
+
+            <a
+                href="product-details.html?product=copper-wire"
+                class="related-card">
+
+                <div class="related-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=700&q=80"
+                        alt="Copper Wire">
+
+                </div>
+
+
+                <div class="related-info">
+
+                    <span>
+                        Wires
+                    </span>
+
+                    <h3>
+                        Premium Copper Wire
+                    </h3>
+
+                    <strong>
+                        Rs. 3,200
+                    </strong>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- RELATED 4 -->
+
+            <a
+                href="product-details.html?product=wall-switch"
+                class="related-card">
+
+                <div class="related-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1558008258-3256797b43f3?auto=format&fit=crop&w=700&q=80"
+                        alt="Wall Switch">
+
+                </div>
+
+
+                <div class="related-info">
+
+                    <span>
+                        Switches
+                    </span>
+
+                    <h3>
+                        Modern Wall Switch
+                    </h3>
+
+                    <strong>
+                        Rs. 350
+                    </strong>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+
+            <div class="footer-about">
+
+                <div class="logo footer-logo">
+
+                    <i class="fa-solid fa-bolt"></i>
+
+                    <div>
+
+                        <span>
+                            Voltix
+                        </span>
+
+                        <small>
+                            Electricals
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <p>
+                    Your trusted source for quality electrical
+                    products and reliable electrical solutions.
+                </p>
+
+
+                <div class="social">
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="products.html">
+                    Products
+                </a>
+
+                <a href="about.html">
+                    About Us
+                </a>
+
+                <a href="services.html">
+                    Services
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+                <h3>
+                    Categories
+                </h3>
+
+                <a href="products.html">
+                    LED Lighting
+                </a>
+
+                <a href="products.html">
+                    Electric Fans
+                </a>
+
+                <a href="products.html">
+                    Electrical Wires
+                </a>
+
+                <a href="products.html">
+                    Switches
+                </a>
+
+                <a href="products.html">
+                    Accessories
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-contact">
+
+                <h3>
+                    Contact Us
+                </h3>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Main Market, Pakistan
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    +92 300 1234567
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    info@voltixelectricals.com
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 Voltix Electricals.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- COMMON JS -->
+
+    <script src="js.js"></script>
+
+</body>
+
+</html>

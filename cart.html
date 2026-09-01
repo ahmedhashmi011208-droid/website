@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart | Voltix Electricals</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         NAVBAR
+    ================================================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-bolt"></i>
+
+            <div>
+
+                <span>Voltix</span>
+
+                <small>Electricals</small>
+
+            </div>
+
+        </div>
+
+
+        <nav>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="services.html">
+                Services
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <div class="nav-icons">
+
+            <a href="cart.html" class="active-cart">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <span class="cart-count" id="cartCount">
+                    0
+                </span>
+
+            </a>
+
+            <i class="fa-solid fa-bars menu-icon"></i>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ==================================================
+         PAGE HEADER
+    ================================================== -->
+
+    <section class="page-header">
+
+        <div>
+
+            <span>
+                YOUR SHOPPING CART
+            </span>
+
+            <h1>
+                Shopping Cart
+            </h1>
+
+            <p>
+                Review your selected electrical products.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         CART SECTION
+    ================================================== -->
+
+    <section class="cart-section">
+
+        <div class="cart-container">
+
+
+            <!-- ==================================================
+                 CART PRODUCTS
+            ================================================== -->
+
+            <div class="cart-products">
+
+                <div class="cart-heading">
+
+                    <div>
+
+                        <span>
+                            YOUR CART
+                        </span>
+
+                        <h2>
+                            Cart Items
+                        </h2>
+
+                    </div>
+
+                    <a href="products.html" class="continue-shopping">
+
+                        <i class="fa-solid fa-arrow-left"></i>
+
+                        Continue Shopping
+
+                    </a>
+
+                </div>
+
+
+                <!-- CART ITEMS WILL COME HERE -->
+
+                <div id="cartItems">
+
+                    <!-- JavaScript will add products here -->
+
+                </div>
+
+
+                <!-- EMPTY CART -->
+
+                <div
+                    id="emptyCart"
+                    class="empty-cart">
+
+                    <div class="empty-cart-icon">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                    </div>
+
+                    <h2>
+                        Your Cart is Empty
+                    </h2>
+
+                    <p>
+                        You haven't added any products to your cart yet.
+                    </p>
+
+                    <a
+                        href="products.html"
+                        class="shop-now-btn">
+
+                        <i class="fa-solid fa-bag-shopping"></i>
+
+                        Start Shopping
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 CART SUMMARY
+            ================================================== -->
+
+            <div class="cart-summary">
+
+                <h2>
+                    Order Summary
+                </h2>
+
+
+                <div class="summary-row">
+
+                    <span>
+                        Subtotal
+                    </span>
+
+                    <strong id="cartSubtotal">
+                        Rs. 0
+                    </strong>
+
+                </div>
+
+
+                <div class="summary-row">
+
+                    <span>
+                        Delivery
+                    </span>
+
+                    <strong id="cartDelivery">
+                        Rs. 0
+                    </strong>
+
+                </div>
+
+
+                <div class="summary-divider"></div>
+
+
+                <div class="summary-total">
+
+                    <span>
+                        Total
+                    </span>
+
+                    <strong id="cartTotal">
+                        Rs. 0
+                    </strong>
+
+                </div>
+
+
+                <!-- CHECKOUT BUTTON -->
+
+                <button
+                    class="checkout-btn"
+                    id="checkoutBtn">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    Proceed to Checkout
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+                <!-- PAYMENT INFO -->
+
+                <div class="secure-payment">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                    <div>
+
+                        <strong>
+                            Secure Shopping
+                        </strong>
+
+                        <span>
+                            Your shopping information is protected.
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PAYMENT METHODS -->
+
+                <div class="payment-methods">
+
+                    <span>
+                        We Accept
+                    </span>
+
+                    <div>
+
+                        <span>
+                            Cash
+                        </span>
+
+                        <span>
+                            Bank
+                        </span>
+
+                        <span>
+                            Online
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         WHY SHOP WITH US
+    ================================================== -->
+
+    <section class="cart-benefits">
+
+        <div class="section-heading">
+
+            <span>
+                WHY VOLTIX
+            </span>
+
+            <h2>
+                Shop With Confidence
+            </h2>
+
+            <p>
+                Quality products and reliable service.
+            </p>
+
+        </div>
+
+
+        <div class="benefits-grid">
+
+
+            <!-- BENEFIT 1 -->
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+
+                    <i class="fa-solid fa-truck-fast"></i>
+
+                </div>
+
+                <h3>
+                    Fast Delivery
+                </h3>
+
+                <p>
+                    Get your electrical products delivered
+                    safely and quickly.
+                </p>
+
+            </div>
+
+
+            <!-- BENEFIT 2 -->
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                </div>
+
+                <h3>
+                    Quality Products
+                </h3>
+
+                <p>
+                    We provide reliable and quality electrical
+                    products.
+                </p>
+
+            </div>
+
+
+            <!-- BENEFIT 3 -->
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+
+                    <i class="fa-solid fa-headset"></i>
+
+                </div>
+
+                <h3>
+                    Expert Support
+                </h3>
+
+                <p>
+                    Our team is available to help you choose
+                    the right products.
+                </p>
+
+            </div>
+
+
+            <!-- BENEFIT 4 -->
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+
+                    <i class="fa-solid fa-rotate-left"></i>
+
+                </div>
+
+                <h3>
+                    Easy Returns
+                </h3>
+
+                <p>
+                    Simple and convenient return support for
+                    eligible products.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         CTA
+    ================================================== -->
+
+    <section class="cta">
+
+        <div>
+
+            <span>
+                NEED HELP?
+            </span>
+
+            <h2>
+                Talk To Our Electrical Experts
+            </h2>
+
+            <p>
+                Need help choosing a product? Contact our team.
+            </p>
+
+        </div>
+
+
+        <a
+            href="contact.html"
+            class="cta-btn">
+
+            Contact Us
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </section>
+
+
+
+    <!-- ==================================================
+         FOOTER
+    ================================================== -->
+
+    <footer>
+
+        <div class="footer-container">
+
+
+            <!-- ABOUT -->
+
+            <div class="footer-about">
+
+                <div class="logo footer-logo">
+
+                    <i class="fa-solid fa-bolt"></i>
+
+                    <div>
+
+                        <span>
+                            Voltix
+                        </span>
+
+                        <small>
+                            Electricals
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <p>
+                    Your trusted source for quality electrical
+                    products and reliable electrical solutions.
+                </p>
+
+
+                <div class="social">
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="footer-links">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="products.html">
+                    Products
+                </a>
+
+                <a href="about.html">
+                    About Us
+                </a>
+
+                <a href="services.html">
+                    Services
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+
+            <!-- CATEGORIES -->
+
+            <div class="footer-links">
+
+                <h3>
+                    Categories
+                </h3>
+
+                <a href="products.html">
+                    LED Lighting
+                </a>
+
+                <a href="products.html">
+                    Electric Fans
+                </a>
+
+                <a href="products.html">
+                    Electrical Wires
+                </a>
+
+                <a href="products.html">
+                    Switches
+                </a>
+
+                <a href="products.html">
+                    Accessories
+                </a>
+
+            </div>
+
+
+
+            <!-- CONTACT -->
+
+            <div class="footer-contact">
+
+                <h3>
+                    Contact Us
+                </h3>
+
+                <p>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Main Market, Pakistan
+
+                </p>
+
+
+                <p>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    +92 324 2704078
+
+                </p>
+
+
+                <p>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    voltixelectricals@gmail.com
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+
+                © 2026 Voltix Electricals.
+                All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ==================================================
+         COMMON JS
+    ================================================== -->
+
+    <script src="js.js"></script>
+
+</body>
+
+</html>
