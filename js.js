@@ -1068,7 +1068,15 @@ document.addEventListener("DOMContentLoaded", function () {
         );
 
     }
+// MOBILE MENU
+const menuIcon = document.querySelector(".menu-icon");
+const nav = document.querySelector(".navbar nav");
 
+if (menuIcon && nav) {
+    menuIcon.addEventListener("click", function () {
+        nav.classList.toggle("show");
+    });
+}
 
 
 });
